@@ -7,7 +7,7 @@ import { ApolloProvider } from '@apollo/react-hooks';
 import { setContext } from 'apollo-link-context';
 
 const httpLink = createHttpLink({
-  uri: 'http://twitternode-env.eba-hvcgqdfh.us-east-1.elasticbeanstalk.com/'
+  uri: 'https://gentle-citadel-98111.herokuapp.com/'
 });
 
 const authLink = setContext(() => {
